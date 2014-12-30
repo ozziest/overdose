@@ -64,5 +64,3 @@ $overdose->set([
 * `recreation`: Recreation time. (sec)
 
 
-## Example
-
