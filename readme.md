@@ -53,7 +53,7 @@ $overdose->set([
          ->secure();
 ```
 
-* `acceptable`: Acceptable sec for every request interval. 
-* `safe`: Safety sec. for every request interval. If request interval bigger than safe, that request is a **overdose.**
+* `acceptable`: Acceptable sec for every request interval. If request interval smaller than acceptable, that request is a **overdose.**
+* `safe`: Safety sec. for every request interval. If request interval greater than safe, overdose count will reduce.
 * `max`: Maximum overdose count for recreation time activation.
 * `recreation`: Recreation time. (sec)
