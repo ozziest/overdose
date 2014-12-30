@@ -35,7 +35,12 @@ $cache = new Cache($adapter);
 
 // Creating overdose
 $overdose = new Ozziest\Overdose\Overdose($cache);
-$overdose->secure();
+try {
+    $overdose->secure();
+} catch (Ozziest\Overdose\OverdoseException $e) {
+    exit($e->getMessage());
+}
+
 ```
 
 ## Configuration
@@ -57,3 +62,7 @@ $overdose->set([
 * `safe`: Safety sec. for every request interval. If request interval greater than safe, overdose count will reduce.
 * `max`: Maximum overdose count for recreation time activation.
 * `recreation`: Recreation time. (sec)
+
+
+## Example
+
