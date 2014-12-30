@@ -1,0 +1,56 @@
+[
+    {
+        "name": "desarrolla2/cache",
+        "version": "v1.8.0",
+        "version_normalized": "1.8.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/desarrolla2/Cache.git",
+            "reference": "a4fe5e0015b497099613e9cf80f37e445de077a2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/desarrolla2/Cache/zipball/a4fe5e0015b497099613e9cf80f37e445de077a2",
+            "reference": "a4fe5e0015b497099613e9cf80f37e445de077a2",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "predis/predis": "*",
+            "raulfraile/ladybug": "v0.7",
+            "symfony/yaml": "dev-master"
+        },
+        "time": "2014-11-06 11:33:50",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Desarrolla2\\Cache\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Daniel González",
+                "homepage": "http://desarrolla2.com/",
+                "role": "Developer"
+            }
+        ],
+        "description": "Provides an cache interface for several adapters (Apc, File, Mongo, Memcached, Mysql, ... )",
+        "homepage": "https://github.com/desarrolla2/Cache/blob/master/README.md",
+        "keywords": [
+            "apc",
+            "cache",
+            "file",
+            "memcached",
+            "mongo",
+            "mysql",
+            "redis"
+        ]
+    }
+]

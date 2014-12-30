@@ -1,0 +1,22 @@
+{
+    "name": "ozziest/overdose",
+    "description": "Overdose is a guardian which is protects your sistem from request flood.",
+    "keywords": ["php", "overdose", "request", "flood", "guardian"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Özgür Adem Işıklı",
+            "email": "i.ozguradem@gmail.com",
+            "role": "Creator & Designer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Ozziest\\Overdose": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "desarrolla2/cache":  "1.8.*"
+    }
+}
