@@ -1,6 +1,6 @@
 # Overdose 
 
-Overdose is a guardian which is protects your system from request flood. 
+Overdose is a guardian which is protects your system from request floods.
 
 ## Installation
 
