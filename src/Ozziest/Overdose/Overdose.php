@@ -80,9 +80,9 @@ class Overdose {
     /**
      * Security control for overdose request 
      *
-     * @return null
+     * @return boolean
      */
-    public function secure()
+    public function isSecure()
     {
         $this->recreation();
         list($request, $overdose) = $this->getDatas();
@@ -92,6 +92,7 @@ class Overdose {
         }
         $this->cache->set($this->key->request, time());
         $this->overdose($overdose);
+        return true;
     }
 
     /**

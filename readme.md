@@ -36,7 +36,7 @@ $cache = new Cache($adapter);
 // Creating overdose
 $overdose = new Ozziest\Overdose\Overdose($cache);
 try {
-    $overdose->secure();
+    $overdose->isSecure();
 } catch (Ozziest\Overdose\OverdoseException $e) {
     exit($e->getMessage());
 }
@@ -55,7 +55,7 @@ $overdose->set([
                 'max'        => 3,
                 'recreation' => 60
             ]) 
-         ->secure();
+         ->isSecure();
 ```
 
 * `acceptable`: Acceptable sec for every request interval. If request interval smaller than acceptable, that request is a **overdose.**
