@@ -1,6 +1,6 @@
 # Overdose 
 
-Overdose is a guardian which is protects your sistem from request flood. 
+Overdose is a guardian which is protects your system from request floods.
 
 ## Installation
 
@@ -9,7 +9,7 @@ To install through composer, simply put the following in your `composer.json` fi
 ```json
 {
     "require": {
-        "ozziest/overdose": "dev-master",
+        "ozziest/overdose": "dev-master"
     }
 }
 ```

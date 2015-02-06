@@ -15,7 +15,7 @@
             "Ozziest\\Overdose": "src/"
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "desarrolla2/cache":  "1.8.*"
     },
